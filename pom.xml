@@ -5,17 +5,37 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
+        <!--
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.5.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <version>2.2.1.RELEASE</version>
+        <relativePath/> -->
+         <!-- lookup parent from repository -->
+        <groupId>com.github.sfg-beer-works</groupId>
+        <artifactId>sfg-beer-works-bom</artifactId>
+        <version>1.0.16</version>
     </parent>
 
+    <!--
+    <groupId>com.github.sfg-beer-works</groupId>
+    <artifactId>sfg-beer-works-bom</artifactId>
+    <version>1.0.17-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    -->
+
+    <!--
     <groupId>guru.springframework</groupId>
     <artifactId>mssc-brewery-bom</artifactId>
     <version>1.0-SNAPSHOT</version>
-
     <packaging>pom</packaging>
+    -->
+
+    <groupId>guru.springframework</groupId>
+    <artifactId>mssc-brewery-bom</artifactId>
+    <version>1.0.12-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <description>Brewery BOM Project - common deps for brewery service</description>
 
     <licenses>
         <license>
